@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-function GalleryItem(){
+function VaticanItem(){
     // const [name, setName]= useState(...);
     const[image, SetImage]=useState({
-        location: 'images/chicago.jpeg',
-        description: 'Picture of me in Chicago'
+        location: 'images/vatican.jpeg',
+        description: 'Picture of me in the Vatican'
     });
 
     const[show, setShow]=useState( false );
@@ -21,4 +21,4 @@ function GalleryItem(){
     )
 }
 
-export default GalleryItem;
+export default VaticanItem;

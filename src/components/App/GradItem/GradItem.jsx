@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-function GalleryItem(){
+function GradItem(){
     // const [name, setName]= useState(...);
     const[image, SetImage]=useState({
-        location: 'images/chicago.jpeg',
-        description: 'Picture of me in Chicago'
+        location: 'images/graduation.jpeg',
+        description: 'Picture of me after graduation'
     });
 
     const[show, setShow]=useState( false );
@@ -21,4 +21,4 @@ function GalleryItem(){
     )
 }
 
-export default GalleryItem;
+export default GradItem;

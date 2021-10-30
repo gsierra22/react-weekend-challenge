@@ -1,11 +1,12 @@
 import { useState } from "react";
+import GalleryList from "../GalleryList/GalleryList";
 
-function Body(props){
+function Body(){
     // const [name, setName]= useState(...);
     return(
         <div>
             <h1>Body</h1>
-            <p>props:{JSON.stringify(props)}</p>
+            <GalleryList/>
         </div>
     )
 }
