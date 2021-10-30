@@ -1,7 +1,7 @@
 const galleryItems = [
     {
         id: 1, 
-        path: 'images/chicago.jpg', 
+        path: 'images/chicago.jpeg', 
         description: 'Photo of me in Chicago', 
         likes: 0 
     },
