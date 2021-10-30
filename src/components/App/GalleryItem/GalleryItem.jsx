@@ -1,11 +1,14 @@
 import { useState } from "react";
 
-function GalleryItem(){
+function GalleryItem(props){
     // const [name, setName]= useState(...);
-    const[image, SetImage]=useState({
-        location: 'images/chicago.jpeg',
-        description: 'Picture of me in Chicago'
-    });
+
+    const [likes, setLikes]= useState(0);
+
+    const increaseLikes = () =>{
+        setLikes(likes + 1);
+        console.log(likes)
+    }
 
     const[show, setShow]=useState( false );
 
@@ -15,8 +18,12 @@ function GalleryItem(){
     return(
         <div>{
             show?
-                <img src={ image.location } width="150" height="150" onClick={ toggleImage }></img>:
-                <h1 onClick={ toggleImage }>{ image.description }</h1>}
+                <img src={ props.image.location } width="150" height="150" onClick={ toggleImage }></img>:
+                <h1 onClick={ toggleImage }>{ props.image.description }</h1>
+                }
+                <button onClick={increaseLikes}>Like</button>
+                <div>{props.image.likes}</div>
+
         </div>
     )
 }

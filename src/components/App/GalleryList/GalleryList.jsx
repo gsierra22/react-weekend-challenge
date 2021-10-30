@@ -7,10 +7,10 @@ function GalleryList(props){
     return(
         <div>
             <h1>GalleryList</h1>
-            <p></p>
-            <GalleryItem />
-            <GradItem/>
-            <VaticanItem/>
+            <p>{JSON.stringify(props)}</p>
+            {props.moments.map (thisMoment =>(
+              <GalleryItem  image={thisMoment}/>
+            ))}
         </div>
     )
 }
