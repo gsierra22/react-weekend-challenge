@@ -11,10 +11,15 @@ function App() {
         </header>
         <p>Gallery goes here</p>
         <Body />
-        <img src="images/goat_small.jpg"/>
-        <img src="images/chicken_sprint.jpeg"
-        width="100"
-        height="100"/>
+        <img src="images/chicago.jpeg"
+        width="150"
+        height="150"/>
+        <img src="images/graduation.jpeg"
+        width="150"
+        height="150"/>
+        <img src="images/vatican.jpeg"
+        width="150"
+        height="150"/>
       </div>
     );
 }

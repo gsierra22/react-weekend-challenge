@@ -1,28 +1,21 @@
 const galleryItems = [
     {
         id: 1, 
-        path: 'images/goat_small.jpg', 
-        description: 'Photo of a goat taken at Glacier National Park.', 
+        path: 'images/chicago.jpg', 
+        description: 'Photo of me in Chicago', 
         likes: 0 
     },
         {
             id: 2, 
-            path: 'images/cow_big.jpeg', 
-            description: 'Photo of a big cow', 
+            path: 'images/graduation.jpeg', 
+            description: 'Graduation photo', 
             likes: 0
 
         },
         {
             id: 3, 
-            path: 'images/chicken_sprint.jpeg', 
-            description: 'Photo of a chicken running', 
-            likes: 0 
-
-        },
-        {
-            id: 4, 
-            path: 'images/horse_snow.jpeg', 
-            description: 'Photo of a horse in the snow', 
+            path: 'images/vatican.jpeg', 
+            description: 'Photo of me at the Vatican', 
             likes: 0 
 
         }
