@@ -25,9 +25,9 @@ function App() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Gallery of My Life</h1>
+          <h1 className="App-title">Photos of my Life Moments</h1>
         </header>
-        <p>Gallery goes here</p>
+        <p></p>
         <Body moments={moments} getGallery={getGallery}/>
       </div>
     );

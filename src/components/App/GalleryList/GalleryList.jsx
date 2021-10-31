@@ -4,8 +4,7 @@ function GalleryList(props){
     // const [name, setName]= useState(...);
     return(
         <div>
-            <h1>GalleryList</h1>
-            <p>{JSON.stringify(props)}</p>
+            <h1>Moments List</h1>
             {props.moments.map (thisMoment =>(
               <GalleryItem  image={thisMoment} getGallery={props.getGallery}/>
             ))}
